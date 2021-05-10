@@ -1,0 +1,23 @@
+.title h1 {
+  text-align: center;
+  color: red;
+}
+
+#grid {
+  left: 150px;
+  top: 10px;
+  position: relative;
+}
+
+#score {
+  text-align: center;
+}
+
+.centered h3 {
+  text-align: center;
+}
+
+.centered ol {
+  left: 500px;
+  position: relative;
+}

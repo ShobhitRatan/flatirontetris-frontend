@@ -4,9 +4,9 @@ const ctx = canvas.getContext('2d');
 let activeShape = null;
 let isPaused = false;
 const gridSize = 50;
-const scoreElement = document.querySelector('#score');
+const scoreElement = document.getElementById('score');
 
-console.log(score);
+console.log(scoreElement);
 document.addEventListener('keydown', e => {
   switch (e.key) {
     // case 'ArrowDown':

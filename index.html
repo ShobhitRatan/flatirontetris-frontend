@@ -3,18 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Flatiron Tetris</title>
   </head>
   <body>
+    <div class="title">
+      <h1 id="title">Flatiron Tetris</h1>
+    </div>
     <style>
       canvas {
         margin-left: 20%;
         border: 1px solid black;
       }
     </style>
-    <canvas id="grid" width="600" height="1000"> </canvas>
+    <canvas id="grid" width="600" height="600"> </canvas>
     <div>
       <h1 id="score">Score: 0</h1>
+    </div>
+    <div class="centered">
+      <h3>Steps to play the game</h3>
+      <ol>
+        <li>Use arrow keys to move the pieces.</li>
+        <li>
+          Try to complete the line to gain points. (20 points per full line)
+        </li>
+        <li>Once the pieces reach the top line, the game will end.</li>
+      </ol>
     </div>
     <script src="./src/index.js"></script>
   </body>
