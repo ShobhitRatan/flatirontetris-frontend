@@ -20,3 +20,4 @@ Flatiron Tetris was built using Rails on the backend which handles storing and r
 
 - Clone this repo as well as the [backend repo](https://github.com/ShobhitRatan/mod3-project), navigate to the project root in your terminal.
 - Run `open index.html` for frontend implementation.
+- Run `rails s` for backend implementation.
